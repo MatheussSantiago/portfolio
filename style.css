@@ -1,53 +1,90 @@
 body {
-    background-color: #837d7d;
+    background-color: #080c1af7;
   }
 ul {
-    display: flex;
-    gap: 10px;
+    display: flex; ;
     text-decoration: none;
     list-style: none;
-    justify-content: center;
+    padding: 4px 10px;
+    width: 80%;;
+    border-bottom: solid 4px #02a36df9;
   }
-  li {
-    margin: 0 10px;
-    width: 100px;
+  li {   
+    display: flex; ;
+  }
+  li a{
     text-decoration: none;
-    list-style: none;
-    justify-content: center;    
-    gap: 10px;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #ffffff;
-    a {
-    text-decoration: none;
-    color: #000;
+    color: #ffffff98;
     font-size: 20px;
-    }
   }
 
-#second {
-    text-align: center;
-    font-size: 59px;
+.name {
+    margin-right: auto;
+    padding: 0px 230px;
+    font-size: 16px;
     color: #fff;
+    font-family: inter;
+    font-weight: 500; 
 }
-h2 {
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
+
+.all {
+    display: flex; 
+    gap: 20px;
+  }
+
+  
+#container {
+  width: 100%;
+  max-width: 588px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
 }
-#Homeh1 {
-    text-align: center;
-    font-size: 59px;
-    color: #fff;
+
+#profile {
+    padding: 24px;
 }
-#about {
-    text-align: center;
-    font-size: 59px;
-    color: #fff;
+
+#profile img {
+    display: inline;
+    width: 112px;
+    margin: auto;
+    border-radius: 50%;
+    border: 4px solid #02a36df9;
+    padding: 5px;
 }
-#contact {
-    text-align: center;
-    font-size: 59px;
-    color: #fff;
+
+
+#title {
+    display: inline;
+    font-size: 15px;
+    color: #02a36df9;
+    font-family:roboto ;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+#titlehome {
+    display:flex;
+    margin-top: 2px;
+    font-size: 32px;
+    color: #ffffffd2;
+    font-family: inter;
+    font-weight: 900;
+}
+
+#About {
+    display: flex;
+    padding: 24px 0;
+    font-size: 24px;
+    color: #fffffff9;
+    font-family: inter;
+}
+
+#Contato {
+    display: flex;
+    gap: 16px;
+    padding: 24px 0;
+    font-size: 24px;
+    color: #fffffff9;
+    font-family: inter;
 }
