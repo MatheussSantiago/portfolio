@@ -101,10 +101,10 @@ ul {
     font-size: 62px;
     color: #ffffff;
     font-family: poppins;
-    font-weight: 400px;
     height: auto;
     margin-top: 20px;
     line-height: 50px;
+    backdrop-filter: blur(104px);
 }
 
 #About {
