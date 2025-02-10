@@ -109,10 +109,55 @@ ul {
     font-family: poppins;
 }
 
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px 24px;
+
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 8px;
+
+  backdrop-filter: blur(4px);
+
+  text-decoration: none;
+  font-weight: 500;
+
+  transition: background 0.2s;
+}
+
+#projectslist {
+    display: flex;
+    width: 200px;
+    height: 60px;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 16px;
+    color: #fffffff9;
+    font-family: inter;
+    border: #ffffff solid 1px;
+}
+
+#projectslink {
+    display: flex;
+    text-decoration: none;
+    width: 200px;
+    justify-content: center;
+    font-size: 16px;
+    color: #fffffff9;
+    font-family: poppins;
+    font-weight: 500;
+    border: solid 1px #ffffff;
+}
+
 #About {
     display: flex;
     padding: 24px 0;
-    font-size: 18px;
+    font-size: 24px;
+    gap: 16px;
     color: #fffffff9;
     font-family: inter;
 }
