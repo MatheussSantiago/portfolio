@@ -134,7 +134,6 @@ ul li a {
     height: 60px;
     justify-content: center;
     flex-direction: column;
-    border-radius: 20px;
     gap: 16px;
     color: #fffffff9;
     font-family: inter;
