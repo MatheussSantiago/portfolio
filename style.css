@@ -1,15 +1,16 @@
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  @media (max-width: 768px) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @media (max-width: 768px) {
     font-size: 14px;
+    font-family: poppins;
   }	
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -18,9 +19,8 @@ body {
 
   #container {
     width: 100%;
-    max-width: 600px;
+    max-width: 100%;
     margin: 6px auto 0px;
-    padding: 0 24px;
     margin-top: 40px;
     align-items: center;
     justify-content: center;
@@ -74,7 +74,7 @@ body {
 
   .inicio {
     display: inline-block;
-    width: 100%;
+    width: 70%;
     align-items: center;
     justify-content: center;
     padding: 5rem 1rem;
@@ -88,6 +88,8 @@ body {
     flex-direction: column;
     color: #ffffff;
     font-family: poppins;
+    width: 60%;
+    margin-left: 40%;
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -96,21 +98,21 @@ body {
 }
 
 #projects {
-    display: inline-flex;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 400;
-    color: #ffffff;
-    font-family:open-sans ;
-    border-bottom: solid 1px #ffffff;
-    margin-bottom: 40px;
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 24px;
+  margin-left: 40%;
+  font-weight: 400;
+  color: #ffffff;
+  font-family:open-sans ;
+  border-bottom: solid 1px #ffffff;
+  margin-bottom: 220px;
 }
 
-#projectstitulo {
+h2{
     display: flex;
     font-size: 40px;
     color: #fffffff9;
-    font-family: poppins;
 }
 
 #projectsid, #projectsul, #projectslink {
@@ -131,7 +133,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width:100%;
     width: auto;
     height: auto;
     margin-right: 10px;
@@ -143,7 +145,7 @@ img {
 
 #projectImg {
     display: flex;
-    max-width: 100%;
+    max-width: 60%;
     max-height: 300px;
     justify-content: center;
     margin-top: 20px;
@@ -180,7 +182,7 @@ img {
 #About {
     display: flex;
     padding: 24px 0;
-    font-size: 24px;
+    font-size: 36px;
     gap: 16px;
     color: #fffffff9;
     font-family: inter;
@@ -190,7 +192,7 @@ img {
     display: flex;
     gap: 16px;
     padding: 24px 0;
-    font-size: 24px;
+    font-size: 36px;
     color: #fffffff9;
     font-family: inter;
 }
