@@ -44,6 +44,7 @@ body {
     max-width: 600px;
     background-color: rgba(42,43,56,.5);
     backdrop-filter: blur(104px);
+    user-select: none;
   }
 
   li {   
