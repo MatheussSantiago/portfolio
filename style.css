@@ -31,7 +31,8 @@ body {
     position: fixed;
     z-index: 99;
     padding: 24px;
-    width: 70%;
+    width: 90%;
+    min-width: 200px;
     height: 80px;
     align-items: center;
     left: 50%;
