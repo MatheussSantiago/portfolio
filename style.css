@@ -45,8 +45,6 @@ body {
     backdrop-filter: blur(104px);
   }
 
-
-  
   li {   
     display: flex;
     max-width: auto;
