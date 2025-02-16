@@ -107,16 +107,21 @@ body {
 }
 
 #projects {
-  display: inline-flex;
+  display: block ;
   text-decoration: none;
+
   font-size: 24px;
-  margin-left: 27%;
+  margin: 0 auto 10px auto;
+  width: auto;
+  max-width: 600px;
   font-weight: 400;
   color: #ffffff;
   font-family:open-sans ;
-  border-bottom: solid 1px #ffffff;
-  margin-bottom: 220px;
+  border-bottom: solid 3px #ffffff;
+  border-radius: 10px;
+  margin-bottom: 240px;
 }
+
 
 .sobre {
   background-color: var(--color-black);
