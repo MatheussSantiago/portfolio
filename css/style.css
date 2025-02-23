@@ -101,7 +101,7 @@ body {
     font-family: poppins;
     line-height: 60px;
     
-    margin: 0 auto 10px auto;
+    margin: 0 auto 60px auto;
     width: auto;
     max-width: 600px;
 }
@@ -200,8 +200,10 @@ body {
   position: relative;
   top: 30%;
   width: 100%;
+  max-width: 100%;
   height: 70%;
-  display: flex;
+  display: grid; 
+  grid-template-columns: auto auto;
 }
 
 .left-sobre {
@@ -218,6 +220,8 @@ body {
 .textos-sobre h1 {
   font-size: 3rem;
   font-family: var(--font-grande);
+  width: 100%;
+
 }
 
 .textos-sobre p {
@@ -249,48 +253,23 @@ body {
 }
 
 .right-sobre {
-  height: 90%;
-  width: 100%;
+  height: auto;
+  width: auto;
   display: inline-flex;
   align-items: center;
-  justify-content: center;;
+  justify-content: center;
 }
 
 .imagem-sobre {
   display: inline-flex;
-  justify-content: right;
-  align-items: center;
-  
-  
+  justify-content: center;
+  align-items: center; 
+
 }
 
 .complemento-sobre {
   width: auto;
   z-index: 0;
-}
-
-.complemento-sobre img {
-  position: relative;
-  left: 50px;
-  top: 50px;
-  width: 90%;
-  z-index: 100;
-  animation: rotate 20s linear infinite;
-}
-
-@keyframes rotate {
-  from {
-      transform: rotate(0deg);
-  }
-
-  to {
-      transform: rotate(360deg);
-  }
-}
-
-.imagem-sobre img {
-  width: 90%;
-  z-index: 99;
 }
 
 h2{
